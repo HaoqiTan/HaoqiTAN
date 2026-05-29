@@ -7,7 +7,7 @@ Available for **CDI in Paris** from September 2026
 
 ## About Me
 
-I'm a final-year engineering student at UTBM (BAC+5, Génie Informatique, specialization Data Science / AI), passionate about large language models, generative AI, and production-ready ML systems. My projects range from fine-tuning T5 to generate electronic circuit schematics from natural language, to quantum-inspired optimization algorithms.
+I'm a final-year engineering student at UTBM (BAC+5, Génie Informatique, specialization Data Science / AI), passionate about large language models, generative AI, and production-ready ML systems. My projects range from fine-tuning T5 to generate electronic circuit schematics from natural language, to GraphRAG pipelines with knowledge graphs.
 
 I'm actively seeking a position as **AI Engineer / LLM Engineer** in Paris.
 
@@ -22,7 +22,7 @@ I'm actively seeking a position as **AI Engineer / LLM Engineer** in Paris.
 `Python` `SQL` `NumPy` `Pandas`
 
 **Infrastructure**  
-`GCP` `Git` `Docker`
+`GCP` `Git` `NVIDIA CUDA`
 
 **Languages**  
 🇨🇳 Chinese (native) · 🇬🇧 English (C1+) · 🇫🇷 French (B2 TCF)
@@ -32,23 +32,23 @@ I'm actively seeking a position as **AI Engineer / LLM Engineer** in Paris.
 ## Featured Projects
 
 ### 🔌 [circuit-schema-generator](https://github.com/HaoqiTan/circuit-schema-generator)
-Fine-tuning **T5** to generate LTSpice `.asc` netlists from plain-English circuit descriptions. Custom tokenizer with domain-specific tokens, WandB hyperparameter sweeps, fp16 training.  
+Fine-tuning **T5** to generate LTSpice `.asc` netlists from plain-English circuit descriptions. Custom tokenizer with 23 domain-specific tokens, WandB hyperparameter sweeps, fp16 training.  
 `T5` `HuggingFace` `Seq2Seq` `WandB` `LTSpice`
 
+### 🕸️ [rag-knowledge-graphs-neo4j](https://github.com/HaoqiTan/rag-knowledge-graphs-neo4j)
+**GraphRAG** pipeline combining Neo4j knowledge graphs, HuggingFace embeddings and Google Gemini — with systematic comparison between GraphRAG and vanilla LLM responses.  
+`LangChain` `Neo4j` `RAG` `Google Gemini` `HuggingFace`
+
+### 🧪 [lora-t5-sql-generation](https://github.com/HaoqiTan/lora-t5-sql-generation)
+Parameter-efficient fine-tuning of **T5-small** for natural language → SQL using **LoRA** (rank-16). Only 0.97% of parameters trained. Evaluated with BLEU score, tracked on WandB.  
+`LoRA` `PEFT` `T5` `WikiSQL` `BLEU` `WandB`
+
 ### 🔬 [derm-classification](https://github.com/HaoqiTan/derm-classification)
-Multi-class skin lesion classification on **HAM10000** (10k dermoscopic images, 7 classes) with CNN, data augmentation, dimensionality reduction, and an **ontological semantic validation** layer.  
-`PyTorch` `ResNet` `PCA/UMAP` `Ontology` `WandB`
-
-### 😐 [facial-expression-recognition](https://github.com/HaoqiTan/facial-expression-recognition)
-**ResNet50** transfer learning for 7-class facial expression recognition on the KDEF dataset. Frozen backbone fine-tuning, class-balanced training, WandB tracking.  
-`PyTorch` `ResNet50` `Transfer Learning` `KDEF`
-
-### 🫁 [lung-cancer-prediction](https://github.com/HaoqiTan/lung-cancer-prediction)
-End-to-end supervised ML pipeline (Random Forest, Gradient Boosting, SVM) for lung cancer risk prediction, combined with a **Power BI** interactive dashboard.  
-`scikit-learn` `pandas` `Power BI` `EDA`
+Multi-class skin lesion classification on **HAM10000** (10k dermoscopic images, 7 classes) with CNN, data augmentation, and an **OWL ontology semantic validation** layer.  
+`PyTorch` `ResNet` `PCA` `Ontology` `HAM10000`
 
 ### ⚛️ [combinatorial-optimization](https://github.com/HaoqiTan/combinatorial-optimization)
-Classical GA + **Quantum-Inspired Genetic Algorithm (QGA)** benchmarked on Knapsack and TSP, alongside ACO and Simulated Annealing. Qubit amplitude encoding + rotation gate updates — no quantum hardware required.  
+Classical GA + **Quantum-Inspired Genetic Algorithm (QGA)** benchmarked on Knapsack and TSP, alongside ACO and Simulated Annealing. Qubit amplitude encoding — no quantum hardware required.  
 `NumPy` `GA` `QGA` `ACO` `Simulated Annealing`
 
 ---
@@ -56,31 +56,19 @@ Classical GA + **Quantum-Inspired Genetic Algorithm (QGA)** benchmarked on Knaps
 ## Education
 
 **UTBM** — Diplôme d'Ingénieur, Génie Informatique  
-Specialization: Data Science / Artificial Intelligence  
-*Graduation: September 2026*
+Specialization: Data Science / Artificial Intelligence · *Graduation: September 2026*
+
+**Certifications**  
+🎓 NVIDIA Data Science Certificate 2025  
+🎓 NVIDIA Generative AI Certificate 2025
 
 ---
 
 ## Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-HaoqiTAN-blue?logo=linkedin)](https://linkedin.com/in/haoqi-tan)
-[![Email](https://img.shields.io/badge/Email-tanxavier07@gmail.com-red?logo=gmail)](mailto:tanxavier07@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-HaoqiTAN-blue?logo=linkedin)](https://www.linkedin.com/in/haoqi-tan/)
+[![Email](https://img.shields.io/badge/Email-tanxavier07%40gmail.com-red?logo=gmail)](mailto:tanxavier07@gmail.com)
 
 ---
 
 *Open to AI Engineer / LLM Engineer roles in Paris — available from September 2026.*
-
-<!--
-**HaoqiTan/HaoqiTAN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
