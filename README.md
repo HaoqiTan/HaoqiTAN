@@ -64,7 +64,7 @@ Specialization: Data Science / Artificial Intelligence
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-HaoqiTAN-blue?logo=linkedin)](https://linkedin.com/in/haoqi-tan)
-[![Email](https://img.shields.io/badge/Email-htan@direct--optic.fr-red?logo=gmail)](mailto:htan@direct-optic.fr)
+[![Email](https://img.shields.io/badge/Email-htan@direct--optic.fr-red?logo=gmail)](mailto:tanxavier07@gmail.com)
 
 ---
 
